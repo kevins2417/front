@@ -1,0 +1,25 @@
+.error-404 {
+  text-align: center;
+  padding: 3rem 1rem;
+}
+
+.error-404 h1 {
+  font-size: 2.2rem;
+  color: var(--primario);
+  margin-bottom: 1.5rem;
+}
+
+.boton {
+  display: inline-block;
+  background: var(--acento);
+  color: var(--texto);
+  padding: 0.7rem 1.6rem;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: transform 0.2s;
+}
+
+.boton:hover {
+  transform: translateY(-2px);
+}

@@ -1,0 +1,49 @@
+.titulo {
+  color: var(--primario);
+  margin-bottom: 1.5rem;
+}
+
+.tabla-caja {
+  background: var(--blanco);
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  overflow-x: auto;
+}
+
+.tabla {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.tabla th {
+  background: var(--primario);
+  color: var(--blanco);
+  text-align: left;
+  padding: 0.9rem 1rem;
+}
+
+.tabla td {
+  padding: 0.8rem 1rem;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.tabla tbody tr:hover {
+  background: #eff6ff;
+}
+
+.badge {
+  padding: 0.25rem 0.7rem;
+  border-radius: 999px;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+.badge.ok {
+  background: #dcfce7;
+  color: #166534;
+}
+
+.badge.agotado {
+  background: #fee2e2;
+  color: #991b1b;
+}
